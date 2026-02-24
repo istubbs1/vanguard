@@ -95,6 +95,11 @@ table {
 
 }
 /* THIS ONE IS DONE FOR YOU */
+
+body {
+    background-color: aqua;
+}
+
 #bar-chart {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -159,7 +164,3 @@ table {
 
 
 /* MEDIA QUERIES (LARGE) */
-
-body {
-    background-color: var(--blue);
-}
