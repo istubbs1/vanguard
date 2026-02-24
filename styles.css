@@ -52,6 +52,10 @@ table {
     border-spacing: 0;
 }
 
+body {
+    background-color: #FF4500;
+}
+
 /* ROOT VARIABLES */
 :root {
     --blue: #007BFF;
@@ -95,10 +99,6 @@ table {
 
 }
 /* THIS ONE IS DONE FOR YOU */
-
-body {
-    background-color: aqua;
-}
 
 #bar-chart {
     display: grid;
