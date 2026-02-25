@@ -1,7 +1,8 @@
 /* CSS BY YOUR NAME */
 
 /* IMPORTED FONTS*/
-/* IMPORT "INTER" FROM GOOGLE FONTS"
+/* IMPORT "INTER" FROM GOOGLE FONTS"*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -60,6 +61,12 @@ table {
     --black: #000000;
     --charcoal: #333333;
     --font: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
