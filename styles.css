@@ -63,10 +63,8 @@ table {
     --font: "Inter", sans-serif;
 }
 
-h1 {
+body {
     font-family: 'Inter', sans-serif;
-    font-size: 2.5rem;
-    font-weight: bold;
 }
 
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
