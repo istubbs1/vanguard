@@ -191,7 +191,7 @@ button {
     font-weight: bold;
 }
 
-#Results {
+#results {
     background-color: var(--blue);
     color: var(--white);
     padding: 20px;
