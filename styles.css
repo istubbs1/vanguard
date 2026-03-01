@@ -63,6 +63,15 @@ table {
     --font: "Inter", sans-serif;
 }
 
+header {
+    background-color: var(--black);
+    color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
 #Growth-Consulting {
     background-color: var(--blue);
     Color: var(--white);
@@ -169,6 +178,17 @@ table {
     text-align: left;
     padding: 1rem;
     margin: auto;
+}
+
+button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 table {
