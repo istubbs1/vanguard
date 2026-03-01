@@ -67,6 +67,17 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+#Growth-Consulting {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px;  
+    display: flex;
+}
+
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
