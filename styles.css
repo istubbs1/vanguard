@@ -81,6 +81,34 @@ table {
     margin: auto;
 }
 
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid var(--charcoal);
+    padding: 20px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--charcoal);
+    color: var(--white);
+}
+
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
