@@ -75,9 +75,99 @@ table {
 
 #Growth-Consulting h3 {
     font-weight: bold;
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 0.5rem;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+#Solutions {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+#Solutions h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+#Mergers {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+#Mergers h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+#Digital-Transformation {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+#Digital-Transformation h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+#Advisory-Services {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+#Advisory-Services h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+}
+
+#Corporate-Innovation {
+    background-color: var(--blue);
+    Color: var(--white);
+    border: 2px solid;
+    padding: 40px;
+    border-radius: 25px;
+    width: 300px;
+    height: 100px; 
+}
+
+#Corporate-Innovation h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-align: left;
+    padding: 1rem;
     margin: auto;
 }
 
@@ -106,6 +196,11 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
     background-color: var(--charcoal);
+    color: var(--white);
+}
+
+#Contact {
+    background-color: var(--black);
     color: var(--white);
 }
 
