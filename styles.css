@@ -73,7 +73,7 @@ header {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     text-align: left;
 }
@@ -150,7 +150,7 @@ header p {
 
 #Digital-Transformation h3 {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: 1rem;
     margin: auto;
@@ -256,6 +256,24 @@ tbody tr:nth-child(odd) {
     color: var(--white);
 }
 
+#Contact h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+#Contact p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+#Contact button {
+    align-content: center;
+    width: 300px;
+}
+
 footer {
     background-color: var(--black);
     color: var(--white);
@@ -293,18 +311,21 @@ footer {
 }
 
 #Innovation-Investment h2 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     color: var(--white);
     margin-bottom: 1rem;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border: 10px;
 }
 
 #Innovation-Investment p {
-    font-size: 1.25rem;
+    font-size: 1rem;
     color: var(--white);
     background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
-    border-radius: 10px;
+    border: 10px;
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
@@ -384,3 +405,21 @@ img {
 
 
 /* MEDIA QUERIES (LARGE) */
+
+body {
+    padding: 10px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--blue);
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid var(--blue);
+    width: 350px;
+    height: 50px;
+}
