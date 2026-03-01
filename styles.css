@@ -72,6 +72,18 @@ header {
     font-weight: bold;
 }
 
+h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: left;
+}
+
+header p {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: right;
+}
+
 #Growth-Consulting {
     background-color: var(--blue);
     Color: var(--white);
@@ -197,6 +209,20 @@ button {
     padding: 20px;
 }
 
+#results h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+#results h3 {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    padding: 5px;
+}
+
 table {
     width: 50%;
     border-collapse: collapse;
@@ -282,9 +308,9 @@ footer {
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
- {
+img {
     content: "";
-
+    float: left;
     left:-.5rem;
     width: 3.75rem;
     height: 3.75rem;
