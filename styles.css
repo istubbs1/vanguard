@@ -191,6 +191,12 @@ button {
     font-weight: bold;
 }
 
+#Results {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 20px;
+}
+
 table {
     width: 50%;
     border-collapse: collapse;
@@ -224,6 +230,14 @@ tbody tr:nth-child(odd) {
     color: var(--white);
 }
 
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+}
+
 /* GLOBAL STYLES (MOBILE FIRST (SMALL) */
 
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
@@ -250,6 +264,21 @@ tbody tr:nth-child(odd) {
     text-align: center;
     padding: 1rem;
     overflow: hidden;
+}
+
+#Innovation-Investment h2 {
+    font-size: 2.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Innovation-Investment p {
+    font-size: 1.25rem;
+    color: var(--white);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
