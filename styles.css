@@ -63,10 +63,6 @@ table {
     --font: "Inter", sans-serif;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-}
-
 #Growth-Consulting {
     background-color: var(--blue);
     Color: var(--white);
@@ -91,7 +87,7 @@ body {
 
 @media screen and (min-width: 400px) {
     body {
-        min-width: 400px;
+        font-family: 'Inter', sans-serif;
     }
 }
 
